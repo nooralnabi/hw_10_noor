@@ -1,0 +1,13 @@
+def traversing a
+if a.size > 2 
+  
+  (a.size-3).step(0,-3){|i| a[i]=a[i].upcase}
+ 
+end
+end
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+traversing a
+
+puts a
