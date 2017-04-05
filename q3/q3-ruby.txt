@@ -1,0 +1,22 @@
+ b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+
+b.each do |value|
+
+
+  puts "element #{value} :"
+   if value%2 == 1 
+      puts " is odd number: #{(value*2)}"
+  end
+   if value%2 == 0
+      puts " is even number: #{(value-1)}"
+  end
+   if value%5 == 0
+      puts " is divisible by 5: #{(value*value)}"
+  end
+  if value%10 == 0
+  
+      (0).step(value,10){|i| print i} #is divisible by 10
+  end
+
+
+end
