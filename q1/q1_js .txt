@@ -1,0 +1,15 @@
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+cap(a);
+console.log(a);
+
+function cap (x) {
+    if(x.length>2)
+    {
+     for(var i = 2; i < x.length; i=i+3){               
+          
+          x[i] =x[i].toUpperCase();                    
+     }
+    }
+     return x;                              
+}

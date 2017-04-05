@@ -1,0 +1,17 @@
+
+ def cap a
+if a.size > 2 
+  for i in (2..a.size-1).step(3)
+  
+    a[i]=a[i].upcase
+
+end
+end
+end
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+cap a
+
+puts a
+ 
