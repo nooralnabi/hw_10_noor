@@ -1,0 +1,10 @@
+ def Reverse_str a
+   (1).step(a.size-1,2){|i| a[i]=a[i].reverse}
+ end
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+Reverse_str a
+
+puts a
+ 

@@ -1,0 +1,16 @@
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+Reverse_str(a);
+console.log(a);
+
+
+function Reverse_str(x) {
+    
+     for(var i = 1; i < x.length; i=i+2){               
+          var temp =x[i];
+         temp=temp.split('').reverse().join('');
+         x[i] =temp;                    
+     }
+    
+     return x;                              
+}
+
