@@ -1,0 +1,6 @@
+5. Write a Ruby program that will read the innerHTML of a <p> tag, and print it to the screen in reverse.
+
+Answer:
+
+javascript or html or css this is a clientside but Ruby language not like this language 
+so this not work with the browser at client side using Ruby.
