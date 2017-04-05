@@ -1,0 +1,9 @@
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+c=Array.new b.size
+
+b.each.with_index do |value,i|
+  
+  c[i]=10*value-5
+  puts "#{(b[i]+c[i])}"
+
+end
