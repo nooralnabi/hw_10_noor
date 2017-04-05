@@ -1,0 +1,17 @@
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+c=Array.new b.size
+
+b.each.with_index do |value,i|
+  
+  c[i]=(2.0/3*value)+(1.0/2)
+  
+end
+
+b.each do |value|
+  c.each do |cvalue|
+  
+  puts "#{value*cvalue}"
+  end
+  puts "  Cross Product ________________"
+  
+end
