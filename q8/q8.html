@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>8. Write an HTML page with four paragraphs, and a text area. As you type into the text area, the same text will appear in 
+	all of the four paragraphs at the same time as you type. </h1>
+<h2>write anything will appear below</h2>
+<textarea onkeyup="changeP(this)"></textarea>
+<p id="p1">
+</p>
+<p id="p2">
+</p>
+<p id="p3">
+</p>
+<p id="p4">
+</p>
+<script>
+function changeP(myText) {
+             document.getElementById("p1").innerHTML = myText.value;
+	document.getElementById("p2").innerHTML = myText.value;
+	document.getElementById("p3").innerHTML = myText.value;
+	document.getElementById("p4").innerHTML = myText.value;
+}
+</script>
+</body>
+</html>
